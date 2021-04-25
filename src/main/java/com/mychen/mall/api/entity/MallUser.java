@@ -3,18 +3,28 @@ package com.mychen.mall.api.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * 
  * @TableName tb_mall_user
  */
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@TableName("tb_mall_user")
 public class MallUser implements Serializable {
     /**
      * 用户主键id
      */
+    @TableId
     private Long userId;
 
     /**
@@ -38,7 +48,7 @@ public class MallUser implements Serializable {
     private String introduceSign;
 
     /**
-     * 
+     *
      */
     private String address;
 

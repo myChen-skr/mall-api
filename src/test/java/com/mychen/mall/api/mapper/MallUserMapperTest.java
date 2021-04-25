@@ -16,11 +16,11 @@ class MallUserMapperTest {
     private MallUserMapper mallUserMapper;
 
 
-    @Test
-    void selectByPrimaryKey() {
-        MallUser mallUser = mallUserMapper.selectByPrimaryKey(1L);
-        System.out.println(mallUser);
-    }
+//    @Test
+//    void selectByPrimaryKey() {
+//        MallUser mallUser = mallUserMapper.selectByPrimaryKey(1L);
+//        System.out.println(mallUser);
+//    }
 
 //    @Test
 //    void selectAll() {
