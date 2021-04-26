@@ -1,4 +1,4 @@
-package com.mychen.mall.api.serviceimpl;
+package com.mychen.mall.api.service.Impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.mychen.mall.api.common.Constants;

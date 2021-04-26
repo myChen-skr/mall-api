@@ -1,4 +1,4 @@
-package com.mychen.mall.api.serviceimpl;
+package com.mychen.mall.api.service.Impl;
 
 import com.mychen.mall.api.controller.vo.MallIndexCarouselVO;
 import com.mychen.mall.api.entity.MallCarousel;
